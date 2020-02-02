@@ -37,5 +37,6 @@ int main () {
   ppoly1->printarea();
   cout <<"The triangle area is ";
   ppoly2->printarea();
+  cout << "You have covered the basic usage of polymorphism class" <<endl;
   return 0;
 }
