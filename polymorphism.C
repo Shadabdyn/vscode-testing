@@ -33,7 +33,9 @@ int main () {
   Polygon * ppoly2 = &trgl;
   ppoly1->set_values (4,5);
   ppoly2->set_values (4,5);
+  cout <<"The rectangle area is ";
   ppoly1->printarea();
+  cout <<"The triangle area is ";
   ppoly2->printarea();
   return 0;
 }
